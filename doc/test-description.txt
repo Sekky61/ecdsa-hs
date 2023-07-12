@@ -1,0 +1,10 @@
+Testovací soubory s příponou .in jsou vstupy.
+Součástí jména každého vstupu je přepínač, se kterým se má test spustit.
+Odpovádající výstup se nachází ve stejnojmenném souboru s příponou .out.
+
+Příklad:
+    test/test_s.in  - vstup pro test
+    test/test_s.out - výstup pro test
+
+Porovnání vstupu s výstupem:
+    ./flp22-fun -k test/test_k.in norandom | diff test/test_k.out -

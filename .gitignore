@@ -1,0 +1,5 @@
+flp22-fun
+*.hi
+*.o
+test.hs
+tt
